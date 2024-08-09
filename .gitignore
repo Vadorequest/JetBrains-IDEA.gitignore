@@ -2,6 +2,14 @@
 # Ignore all .idea files by default, except files listed below (whitelist-style) 
 *
 
+# .gitignore file
+# The .gitignore file defines which files and directories should be ignored by Git in the project.
+# It must be tracked in version control to ensure that all team members follow the same rules for 
+# ignoring files. Without tracking this file, different team members might have different 
+# ignore rules, leading to inconsistencies in which files are tracked or ignored. 
+# By committing the .gitignore file, we ensure that the entire team maintains the same 
+!.gitignore
+
 # Version Control configuration for your project
 # This file contains the configuration of the version control system (VCS) that the project uses.
 # By committing this file, all team members will have a consistent VCS setup, ensuring everyone 

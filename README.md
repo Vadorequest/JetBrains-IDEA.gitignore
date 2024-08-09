@@ -30,3 +30,7 @@ The `.gitignore` file in this repository ignores all files in the `.idea` direct
 
 > TIP: If you had already started tracking `.idea`  files, you can first remove them from version tracking (without deleting them) by running `git rm -r --cached .idea`.
 > The files will be "untracked" in Git, but files on disk **won't** be modified/deleted.
+
+## Related discussions
+
+- https://stackoverflow.com/questions/43198273/which-files-in-idea-folder-should-be-tracked-by-git

@@ -26,3 +26,7 @@ The `.gitignore` file in this repository ignores all files in the `.idea` direct
 
 1. Do not specify any rule in your `.gitignore` file itself, all the stuff related to JetBrains IDEA will be handled in `.idea/.gitignore`
 2. Copy the content of [`.gitignore`](./.gitignore) into your `.idea/.gitignore` file
+3. Track, commit and push those changes (e.g: `git add . & git commit -m "Track recommended .idea files" & git push`)
+
+> TIP: If you had already started tracking `.idea`  files, you can first remove them from version tracking (without deleting them) by running `git rm -r --cached .idea`.
+> The files will be "untracked" in Git, but files on disk **won't** be modified/deleted.

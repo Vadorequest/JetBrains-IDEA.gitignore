@@ -25,4 +25,4 @@ The `.gitignore` file in this repository ignores all files in the `.idea` direct
 ## How to Use
 
 1. Do not specify any rule in your `.gitignore` file itself, all the stuff related to JetBrains IDEA will be handled in `.idea/.gitignore`
-2. Copy the content of `.gitignore` into your `.idea/.gitignore` file
+2. Copy the content of [`.gitignore`](./.gitignore) into your `.idea/.gitignore` file

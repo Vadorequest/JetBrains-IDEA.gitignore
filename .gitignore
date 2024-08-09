@@ -1,0 +1,48 @@
+# See https://github.com/Vadorequest/JetBrains-IDEA.gitignore
+# Ignore all .idea files by default, except files listed below (whitelist-style) 
+*
+
+# Version Control configuration for your project
+# This file contains the configuration of the version control system (VCS) that the project uses.
+# By committing this file, all team members will have a consistent VCS setup, ensuring everyone 
+# uses the same tool (e.g., Git, Mercurial) and configuration within the IDE.
+!vcs.xml
+
+# Encodings
+# This file stores the character encoding settings for your project. 
+# It’s crucial to ensure that all team members use the same file encoding to avoid 
+# issues related to character representation, especially in projects with diverse languages or special characters.
+!encodings.xml
+
+# Code Style Settings
+# This file contains the code style configuration (like indentation, spaces, and braces).
+# Committing this file ensures that all developers on the project adhere to the same 
+# code formatting rules, which helps maintain code consistency and readability across the team.
+!codeStyleSettings.xml
+
+# Project Specific Words (Dictionaries)
+# This directory is used to store custom dictionaries specific to the project, 
+# which may contain terms, abbreviations, or domain-specific words not recognized by the default spell-checker.
+# By committing these, all team members can benefit from a consistent set of custom dictionary entries, 
+# ensuring consistency in spelling and terminology across the project.
+!dictionaries
+
+# Copyrights Configuration
+# This file includes the copyright configuration, such as templates or specific copyright 
+# notices that should be automatically inserted into files. 
+# Committing this ensures that copyright notices are applied consistently across the project, 
+# maintaining legal and organizational standards.
+!copyrights
+
+# Miscellaneous Project Settings
+# This file stores various project-specific settings such as the project name, 
+# JDK version, and other essential configurations that are specific to the project.
+# Including this file ensures that every team member has the same foundational settings 
+# when working on the project, reducing configuration discrepancies.
+!misc.xml
+
+# SQL Dialects
+# This file stores the SQL dialect settings (e.g., MySQL, PostgreSQL) that the project uses.
+# It’s essential to share this file to ensure that all developers are working with the correct 
+# SQL dialect, preventing issues with SQL code compatibility and functionality within the IDE.
+!sqldialects.xml

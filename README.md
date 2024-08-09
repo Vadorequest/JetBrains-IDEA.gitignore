@@ -1,4 +1,4 @@
-# IntelliJ IDEA Project Configuration Best Practices
+# JetBrains IntelliJ IDEA `.gitignore` Recommended Best Practice
 
 ## Overview
 
